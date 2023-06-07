@@ -20,18 +20,11 @@
             href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
             integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
             crossorigin="anonymous">
-        <script
-            defer
-            src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
-            integrity="sha384-vuFJ2JiSdUpXLKG+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF"
-            crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/9e595366ec.js"
-            crossorigin="anonymous"></script>
         <!-- google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
-        <!-- link css -->
+        <!--  css -->
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -49,7 +42,7 @@
           <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a>
+          <a class="nav-link" href="#quienes">¿Quiénes somos?</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#destacados">Destacados</a>
@@ -87,31 +80,31 @@
 </div>
 </header>
 
-<div class="container" id="quienes" >
+<div class="container p-3 p-md-5 d-none d-md-block" id="quienes" >
     <section>
         <h2>¿Quiénes Somos?</h2>
-        <div class="row">
+        <div class="row pt-3">
             <div class="col-4">
-                <div class="quienes" data-toggle="tooltip" data-placement="bottom" title="Viaja seguro">
+                <div class="quien-icon" data-toggle="tooltip" data-placement="bottom" title="Viaja seguro">
                 <i class="fas fa-plane"></i>
             </div>
-                <p>
+                <p class="quien-parrafo">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium enim ut minus adipisci quia, ipsa nihil aspernatur nulla consequatur nisi aliquid perspiciatis! Corporis veritatis at animi modi possimus delectus.
             </p>
             </div>
             <div class="col-4">
-                <div class="quienes" data-toggle="tooltip" data-placement="bottom" title="Viaja seguro">
-                <i class="fas fa-plane"></i>
-            </div>
-                <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium enim ut minus adipisci quia, ipsa nihil aspernatur nulla consequatur nisi aliquid perspiciatis! Corporis veritatis at animi modi possimus delectus.
-            </p>
+                <p class="quien-parrafo">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium enim ut minus adipisci quia, ipsa nihil aspernatur nulla consequatur nisi aliquid perspiciatis! Corporis veritatis at animi modi possimus delectus.
+                </p>
+                    <div class="quien-icon" data-toggle="tooltip" data-placement="bottom" title="Supera desafíos">
+                    <i class="fas fa-mountain"></i>
+                    </div>
             </div>
             <div class="col-4">
-                <div class="quienes" data-toggle="tooltip" data-placement="bottom" title="Viaja seguro">
-                <i class="fas fa-plane"></i>
+                <div class="quien-icon" data-toggle="tooltip" data-placement="bottom" title="Controla tu ruta">
+                <i class="fas fa-route"></i>
             </div>
-                <p>
+                <p class="quien-parrafo">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusantium enim ut minus adipisci quia, ipsa nihil aspernatur nulla consequatur nisi aliquid perspiciatis! Corporis veritatis at animi modi possimus delectus.
             </p>
             </div>
@@ -199,4 +192,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <!-- javascript -->
     <script src="./js/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+    integrity="sha384-vuFJ2JiSdUpXLKG+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9e595366ec.js" crossorigin="anonymous"></script>
 </html>
