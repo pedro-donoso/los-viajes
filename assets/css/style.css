@@ -61,3 +61,7 @@ body{
 footer{
         background-color: rgb(28, 147, 169);
 }
+
+footer a{
+    color: #ffffff;
+}
